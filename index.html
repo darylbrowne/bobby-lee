@@ -207,11 +207,20 @@
 	    position: absolute;
 	    height: 100%;
 	    width: 100%;
-	    background-image: url(https://02b7cf4.netsolhost.com/voicedestination/uploads/1920x1080-default.jpg);
+	    background-image: url(https://02b7cf4.netsolhost.com/voicedestination/sss.php?t=xxx%7C0%7Cfeedback%7Ccomeback%7C0%7Cicon);
 		background-position: center; /* Center the image */
 		background-repeat: no-repeat; /* Do not repeat the image */
 		background-size: cover; /* Resize the background image to cover the entire container */	    
 	}
+	img#ga_image_1:before {
+	    background-image: url(https://02b7cf4.netsolhost.com/voicedestination/sss.php?t=xxx%7C0%7Cfeedback%7Ccomeback%7C1%7Cicon);		
+	} 
+	img#ga_image_2:before {
+	    background-image: url(https://02b7cf4.netsolhost.com/voicedestination/sss.php?t=xxx%7C0%7Cfeedback%7Ccomeback%7C2%7Cicon);		
+	} 
+	img#ga_image_3:before {
+	    background-image: url(https://02b7cf4.netsolhost.com/voicedestination/sss.php?t=xxx%7C0%7Cfeedback%7Ccomeback%7C3%7Cicon);		
+	} 
 	iframe {
 		display: none;
 		margin: 2% -5%;
@@ -362,18 +371,18 @@
 			</button>
 		</div>
 	</div>	
-	<form enctype="multipart/form-data" id="form" action="/voicedestination/hal.php" method="post" target="ga_assets">
-		<iframe id="ga_assets" name="ga_assets" src="/voicedestination/hal.php"></iframe>
+	<form enctype="multipart/form-data" id="form" action="/voicedestination/sss.php" method="post" target="ga_assets">
+		<iframe id="ga_assets" name="ga_assets" src="/voicedestination/sss.php"></iframe>
 		<div class="container-fluid">
 			<div class="hero">
-				<img id="ga_image_0" src="uploads/hal.jpg" class="card-img-top ga_image" alt="">
+				<img id="ga_image_0" src="uploads/sss.jpg" class="card-img-top ga_image" alt="">
 				<div class="overlay">
 					<label class="btn-image voiceAd dailyPush multiTribe" for="image_0"><i class="fa fa-camera"></i></label>
 					<input type="file" class="image" name="image_0" id="image_0" accept="image/*" capture="camera" onchange="form.submit()">
 				</div>
 			</div>
-			<h1 class="intro text-center" id="title">Ask for a New Voice Destination</h1>
-			<textarea class="h1 multiTribe voiceAd dailyPush" id="ga_option_0_title" placeholder="Hey Google, Talk to the Voice of My Brand">Ask for a New Voice Destination</textarea>
+			<h1 class="intro text-center" id="title">Talk to Someone on the Space Station</h1>
+			<textarea class="h1 multiTribe voiceAd dailyPush" id="ga_option_0_title" placeholder="Hey Google, Talk to the Voice of My Brand">Talk to Someone on the Space Station</textarea>
 
 			<select class="form-control form-control-lg voiceAd dailyPush multiTribe user" name="ga_category">
 									<option>Category</option>				
@@ -402,7 +411,7 @@
 				frameborder="0" 
 				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
 
-			<p class="card-text multiTribe voiceAd dailyPush site"><textarea class="p" placeholder="Ask For a New Voice Destination will walk you through creating your next voice destination. Your Live Demo will be available across 1.1 billion Google Assistant enabled devices by tomorrow."></textarea></p>	   
+			<p class="card-text multiTribe voiceAd dailyPush site"><textarea class="p" placeholder="Find out more about what everyone is doing way up there."></textarea></p>	   
 			<p class="card-text voiceAd site">
 				<a class="btn btn-primary" data-toggle="collapse" href="#collapse_button_0" role="button" aria-expanded="false" aria-controls="collapse_button_0" id="ga_option_0_button">
 					Hear More				</a>
@@ -441,7 +450,7 @@
 					id="ga_option_0_button_url" 
 					name="ga_option_0_button_url" 
 					class="form-control form-control-lg" 
-					value="https://www.youtube.com/embed/gYVabrVtCBU" 
+					value="https://www.youtube.com/embed/-A58krE7bBE" 
 					placeholder="Option 0 Button URL" 
 					onkeyup="javascript:document.getElementById('ga_option_0_button').href = this.value" 
 					/>
@@ -453,9 +462,9 @@
 			</figure>	
 
 			<details class="multiTribe dailyPush site">
-				<summary><input type="text" class="h3 form-control form-control-lg" value="When Will Mine Be Ready?" placeholder="Option 1 Title" /></summary>
+				<summary><input type="text" class="h3 form-control form-control-lg" value="Mike Hopkins" placeholder="Option 1 Title" /></summary>
 				<div class="hero">
-					<img id="ga_image_1" src="uploads/hal.jpg" class="card-img-top ga_image" alt="">
+					<img id="ga_image_1" src="uploads/sss.jpg" class="card-img-top ga_image" alt="">
 					<div class="overlay">
 						<label class="btn-image voiceAd dailyPush multiTribe" for="image_1"><i class="fa fa-camera"></i></label>
 						<input type="file" class="image" name="image_1" id="image_1" accept="image/*" capture="camera" onchange="form.submit()">
@@ -463,8 +472,8 @@
 				</div>
 				<div class="card">
 					<div class="card-body">
-						<h4 class="card-subtitle"><input type="text" class="h4 form-control form-control-lg" value="How Do I Get One?" placeholder="Option 1 Subtitle" /></h4>
-						<p class="card-text"><textarea class="p" placeholder="Find out how long it takes for the Live Demo of your Voice Destination to go live on 1.1b devices around the globe."></textarea></p>
+						<h4 class="card-subtitle"><input type="text" class="h4 form-control form-control-lg" value="Ask Mike" placeholder="Option 1 Subtitle" /></h4>
+						<p class="card-text"><textarea class="p" placeholder="Hear what astronaut Mike Hopkins is doing aboard the International Space Station."></textarea></p>
 
 						<select class="form-control form-control-lg multiTribe user">
 							<option>For...</option>
@@ -484,7 +493,7 @@
 							<option value="_goodbye">"Thanks & See You Tomorrow!"</option>
 						</select>
 
-						<div class="btn-group user admin audio_1" id="hal_1">
+						<div class="btn-group user admin audio_1" id="sss_1">
 							<div class="btn-group btn-group-toggle" data-toggle="buttons">
 								<label class="btn btn-info audio_1">
 									<input type="checkbox" name="option_1[]" value="1_0" id="option_1_0" autocomplete="off">S
@@ -510,7 +519,7 @@
 							</div>
 							<label class="btn-audio name_audio_files" for="option_1_audio_file" id="mic_1"><i class="fa fa-microphone"></i></label>
 							<input name="audio_1" id="option_1_audio_file" type="file" class="audio" accept="audio/*" capture />
-							<span data-root="hal" id="audio_1" class="btn-audio play"><i class="fa fa-play"></i></span>
+							<span data-root="sss" id="audio_1" class="btn-audio play"><i class="fa fa-play"></i></span>
 						</div>
 
 						<input type="text" placeholder="YouTube URL w/start cue" id="ga_option_1_yt_audio" class="yt url form-control form-control-lg" />
@@ -524,7 +533,7 @@
 							/>
 						<p class="card-text mt-5">
 							<a class="btn btn-primary" data-toggle="collapse" href="#collapse_button_1" role="button" aria-expanded="false" aria-controls="collapse_button_1" id="ga_option_1_button">
-								Start Yours							</a>
+								Ask Mike							</a>
 						</p>
 						<div class="collapse" id="collapse_button_1">
 							<div class="card card-body">
@@ -533,7 +542,7 @@
 								id="ga_option_1_button_text" 
 								name="ga_option_1_button_text" 
 								class="form-control form-control-lg" 
-								value="Start Yours" 
+								value="Ask Mike" 
 								placeholder="Option 1 Button Text"
 								onkeyup="javascript:document.getElementById('ga_option_1_button').innerHTML = this.value" 
 								/>
@@ -542,7 +551,7 @@
 								id="ga_option_1_button_url" 
 								name="ga_option_1_button_url" 
 								class="form-control form-control-lg" 
-								value="https://02b7cf4.netsolhost.com/voicedestination/hal.php#admin" 
+								value="https://02b7cf4.netsolhost.com/voicedestination/sss.php#admin" 
 								placeholder="Option 1 Button URL" 
 								onkeyup="javascript:document.getElementById('ga_option_1_button').href = this.value" 
 								/>
@@ -553,9 +562,9 @@
 			</details>
 
 			<details class="dailyPush multiTribe site">
-				<summary><input type="text" class="h3 form-control form-control-lg" value="Why Would I Want One?" placeholder="Option 2 Title" /></summary>
+				<summary><input type="text" class="h3 form-control form-control-lg" value="Kate Rubins" placeholder="Option 2 Title" /></summary>
 				<div class="hero">
-					<img id="ga_image_2" src="uploads/hal.jpg" class="card-img-top ga_image" alt="">
+					<img id="ga_image_2" src="uploads/sss.jpg" class="card-img-top ga_image" alt="">
 					<div class="overlay">
 						<label class="btn-image voiceAd dailyPush multiTribe" for="image_2"><i class="fa fa-camera"></i></label>
 						<input type="file" class="image" name="image_2" id="image_2" accept="image/*" capture="camera" onchange="form.submit()">
@@ -563,8 +572,8 @@
 				</div>
 				<div class="card">
 					<div class="card-body">
-						<h4 class="card-subtitle"><input type="text" class="h4 form-control form-control-lg" value="What Is It?" placeholder="Option 2 Subtitle" /></h4>
-						<p class="card-text"><textarea class="p" placeholder="Learn what a Voice Destination is, and realize why you already need one."></textarea></p>
+						<h4 class="card-subtitle"><input type="text" class="h4 form-control form-control-lg" value="Ask Kate" placeholder="Option 2 Subtitle" /></h4>
+						<p class="card-text"><textarea class="p" placeholder="Talk to astronaut Kate Rubins about her latest and ongoing projects."></textarea></p>
 
 						<select class="form-control form-control-lg multiTribe user">
 							<option>For...</option>
@@ -573,7 +582,7 @@
 							<option>Tribe 2</option>
 						</select>
 
-						<div class="btn-group user admin audio_2" id="hal_2">
+						<div class="btn-group user admin audio_2" id="sss_2">
 							<div class="btn-group btn-group-toggle" data-toggle="buttons">
 								<label class="btn btn-info audio_2">
 									<input type="checkbox" name="option_2[]" value="1_0" id="option_2_0" autocomplete="off">S
@@ -613,7 +622,7 @@
 							/>
 						<p class="card-text mt-5">
 							<a class="btn btn-primary" data-toggle="collapse" href="#collapse_button_2" role="button" aria-expanded="false" aria-controls="collapse_button_2" id="ga_option_2_button">
-								Create One							</a>
+								Ask Kate							</a>
 						</p>
 						<div class="collapse" id="collapse_button_2">
 							<div class="card card-body">
@@ -622,7 +631,7 @@
 								id="ga_option_2_button_text" 
 								name="ga_option_2_button_text" 
 								class="form-control form-control-lg" 
-								value="Create One" 
+								value="Ask Kate" 
 								placeholder="Option 2 Button Text"
 								onkeyup="javascript:document.getElementById('ga_option_2_button').innerHTML = this.value" 
 								/>
@@ -631,7 +640,7 @@
 								id="ga_option_2_button_url" 
 								name="ga_option_2_button_url" 
 								class="form-control form-control-lg" 
-								value="https://02b7cf4.netsolhost.com/voicedestination/hal.php#admin" 
+								value="https://02b7cf4.netsolhost.com/voicedestination/sss.php#admin" 
 								placeholder="Option 2 Button URL" 
 								onkeyup="javascript:document.getElementById('ga_option_2_button').href = this.value" 
 								/>
@@ -642,9 +651,9 @@
 			</details>
 
 			<details class="dailyPush multiTribe site">
-				<summary><input type="text" class="h3 form-control form-control-lg" value="What's the Backstory?" placeholder="Option 3 Title" /></summary>
+				<summary><input type="text" class="h3 form-control form-control-lg" value="Victor J. Glover" placeholder="Option 3 Title" /></summary>
 				<div class="hero">
-					<img id="ga_image_3" src="uploads/hal.jpg" class="card-img-top ga_image" alt="">
+					<img id="ga_image_3" src="uploads/sss.jpg" class="card-img-top ga_image" alt="">
 					<div class="overlay">
 						<label class="btn-image voiceAd dailyPush multiTribe" for="image_3"><i class="fa fa-camera"></i></label>
 						<input type="file" class="image" name="image_3" id="image_3" accept="image/*" capture="camera" onchange="form.submit()">
@@ -652,8 +661,8 @@
 				</div>
 				<div class="card">
 					<div class="card-body">
-						<h4 class="card-subtitle"><input type="text" class="h4 form-control form-control-lg" value="Who Makes Them?" placeholder="Option 3 Subtitle" /></h4>
-						<p class="card-text"><textarea class="p" placeholder="Learn what a Voice Destination is, and realize why you already need one."></textarea></p>
+						<h4 class="card-subtitle"><input type="text" class="h4 form-control form-control-lg" value="Ask Victor" placeholder="Option 3 Subtitle" /></h4>
+						<p class="card-text"><textarea class="p" placeholder="Talk to astronaut Kate Rubins about her latest and ongoing projects."></textarea></p>
 
 						<select class="form-control form-control-lg multiTribe user">
 							<option>For...</option>
@@ -662,7 +671,7 @@
 							<option>Tribe 2</option>
 						</select>
 
-						<div class="btn-group user admin audio_3" id="hal_3">
+						<div class="btn-group user admin audio_3" id="sss_3">
 							<div class="btn-group btn-group-toggle" data-toggle="buttons">
 								<label class="btn btn-info audio_3">
 									<input type="checkbox" name="option_3[]" value="1_0" id="option_3_0" autocomplete="off">S
@@ -702,7 +711,7 @@
 
 						<p class="card-text mt-5">
 							<a class="btn btn-primary" data-toggle="collapse" href="#collapse_button_2" role="button" aria-expanded="false" aria-controls="collapse_button_2" id="ga_option_3_button">
-								Make Yours							</a>
+								More from Victor							</a>
 						</p>
 						<div class="collapse" id="collapse_button_2">
 							<div class="card card-body">
@@ -711,7 +720,7 @@
 								id="ga_option_3_button_text" 
 								name="ga_option_3_button_text" 
 								class="form-control form-control-lg" 
-								value="Make Yours" 
+								value="More from Victor" 
 								placeholder="Option 3 Button Text"
 								onkeyup="javascript:document.getElementById('ga_option_3_button').innerHTML = this.value" 
 								/>
@@ -720,7 +729,7 @@
 								id="ga_option_3_button_url" 
 								name="ga_option_3_button_url" 
 								class="form-control form-control-lg" 
-								value="https://02b7cf4.netsolhost.com/voicedestination/hal.php#admin" 
+								value="https://02b7cf4.netsolhost.com/voicedestination/sss.php#admin" 
 								placeholder="Option 3 Button URL" 
 								onkeyup="javascript:document.getElementById('ga_option_3_button').href = this.value" 
 								/>
@@ -824,16 +833,16 @@ const app = conversation({
   debug: true
 });
 
-const DEST_NAME = 'Ask for a New Voice Destination';
-const DEST_URL = `https://02b7cf4.netsolhost.com/voicedestination/hal.php`;
+const DEST_NAME = 'Talk to Someone on the Space Station';
+const DEST_URL = `https://02b7cf4.netsolhost.com/voicedestination/sss.php`;
 const HEADER_1 = 'Say';
 const HEADER_2 = 'For';
 const TITLE = 'Ask ' . DEST_NAME;
 const SUBTITLE = 'Talk to ' . DEST_NAME;
 const SUGGESTION_0 = `Hear More`;
-const SUGGESTION_1 = `When Will Mine Be Ready?`;
-const SUGGESTION_2 = `Why Would I Want One?`;
-const SUGGESTION_3 = `What's the Backstory?`;
+const SUGGESTION_1 = `Mike Hopkins`;
+const SUGGESTION_2 = `Kate Rubins`;
+const SUGGESTION_3 = `Victor J. Glover`;
 var OPTION = [];
 
 OPTION[1] = {
@@ -1125,22 +1134,22 @@ exports.ActionsOnGoogleFulfillment = functions.https.onRequest(app);
 				</p>
 			</div>
 		</div>
-		<span id="option_1_title" class="hidden">When Will Mine Be Ready?</span>
-		<span id="option_2_title" class="hidden">Why Would I Want One?</span>
-		<span id="option_3_title" class="hidden">What's the Backstory?</span>
-		<span id="option_1_subtitle" class="hidden">How Do I Get One?</span>
-		<span id="option_2_subtitle" class="hidden">What Is It?</span>
-		<span id="option_3_subtitle" class="hidden">Who Makes Them?</span>
-		<span id="option_1_description" class="hidden">Find out how long it takes for the Live Demo of your Voice Destination to go live on 1.1b devices around the globe.</span>
-		<span id="option_2_description" class="hidden">Learn what a Voice Destination is, and realize why you already need one.</span>
-		<span id="option_3_description" class="hidden">Hear from the people working behind the scenes on the voice of your brand.</span>
-		<span id="option_1_button_text" class="hidden">Start Yours</span>
-		<span id="option_2_button_text" class="hidden">Create One</span>
-		<span id="option_3_button_text" class="hidden">Make Yours</span>
-		<span id="option_1_button_url" class="hidden">https://02b7cf4.netsolhost.com/voicedestination/hal.php#admin</span>
-		<span id="option_2_button_url" class="hidden">https://02b7cf4.netsolhost.com/voicedestination/hal.php#admin</span>
-		<span id="option_3_button_url" class="hidden">https://02b7cf4.netsolhost.com/voicedestination/hal.php#admin</span>
-		<input type="hidden" id="asset_file_root" name="ga_asset_file_root" value="hal" />
+		<span id="option_1_title" class="hidden">Mike Hopkins</span>
+		<span id="option_2_title" class="hidden">Kate Rubins</span>
+		<span id="option_3_title" class="hidden">Victor J. Glover</span>
+		<span id="option_1_subtitle" class="hidden">Ask Mike</span>
+		<span id="option_2_subtitle" class="hidden">Ask Kate</span>
+		<span id="option_3_subtitle" class="hidden">Ask Victor</span>
+		<span id="option_1_description" class="hidden">Hear what astronaut Mike Hopkins is doing aboard the International Space Station.</span>
+		<span id="option_2_description" class="hidden">Talk to astronaut Kate Rubins about her latest and ongoing projects.</span>
+		<span id="option_3_description" class="hidden">Find out what astronaut, Victor J. Glover is working on way up there.</span>
+		<span id="option_1_button_text" class="hidden">Ask Mike</span>
+		<span id="option_2_button_text" class="hidden">Ask Kate</span>
+		<span id="option_3_button_text" class="hidden">More from Victor</span>
+		<span id="option_1_button_url" class="hidden">https://02b7cf4.netsolhost.com/voicedestination/sss.php#admin</span>
+		<span id="option_2_button_url" class="hidden">https://02b7cf4.netsolhost.com/voicedestination/sss.php#admin</span>
+		<span id="option_3_button_url" class="hidden">https://02b7cf4.netsolhost.com/voicedestination/sss.php#admin</span>
+		<input type="hidden" id="asset_file_root" name="ga_asset_file_root" value="sss" />
 		<input type="hidden" id="audio_file_prefix" name="ga_audio_file_prefix" />
 		<input type="hidden" id="audio_file_suffix" name="ga_audio_file_suffix" />
 	</form>
@@ -1212,7 +1221,7 @@ exports.ActionsOnGoogleFulfillment = functions.https.onRequest(app);
 	      </div>
 	      <div class="modal-footer">
 	        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
-	        <a href="/voicedestination/hal.php#admin" target="_new" class="btn btn-primary publish">Start New Project</a>
+	        <a href="/voicedestination/sss.php#admin" target="_new" class="btn btn-primary publish">Start New Project</a>
 	      </div>
 	    </div>
 	  </div>
@@ -1286,7 +1295,7 @@ exports.ActionsOnGoogleFulfillment = functions.https.onRequest(app);
 				$(this).siblings(".btn-group").find("label.active").slice(1).removeClass("active");
 				var prefix = $(this).siblings(".btn-group").find("label.active input").val();
 				var suffix = $(this).siblings(".btn-group").find("label.active input").val();
-				var audioURL = 'https://02b7cf4.netsolhost.com/voicedestination/uploads/nethal' + prefix + suffix + '.mp3';
+				var audioURL = 'https://02b7cf4.netsolhost.com/voicedestination/uploads/netsss' + prefix + suffix + '.mp3';
 				var defaultURL = 'https://02b7cf4.netsolhost.com/voicedestination/uploads/net2.mp3';
 				$.ajax({
 				    url : audioURL,
@@ -1405,3 +1414,4 @@ exports.ActionsOnGoogleFulfillment = functions.https.onRequest(app);
 	</script>
 </body>
 </html>
+
